@@ -22,7 +22,7 @@ const About = () => {
             prohects carried out.
           </p>
 
-          <a download="" className="button button--flex" href={img}>
+          <a download="" className="button button--flex" href={CV}>
             Dowload CV
             <svg
               class="button__icon"
