@@ -3,6 +3,7 @@ import "./about.css";
 import AboutImg from "../../assets/aboutrasm.jpg";
 import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
+import img from './kachok.jpg'
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
             prohects carried out.
           </p>
 
-          <a download="" className="button button--flex" href={CV}>
+          <a download="" className="button button--flex" href={img}>
             Dowload CV
             <svg
               class="button__icon"
