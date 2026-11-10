@@ -1,0 +1,91 @@
+// Sayt matni va havolalar shu yerda — bir joydan tahrirlang.
+export const SITE = {
+  name: 'The_xxm',
+  instagram: 'https://instagram.com/the_xxm_',
+  instagramHandle: '@the_xxm_',
+  // TODO: Telegram username'ingizni yozing (masalan https://t.me/the_xxm)
+  telegram: 'https://t.me/the_xxm',
+  telegramHandle: '@the_xxm',
+  photo: '/media/me.jpg', // rasmingizni public/media/me.jpg ga qo'ying
+}
+
+export const PROJECTS = [
+  {
+    id: 'pos',
+    name: 'XXM POS',
+    kind: 'Kassa dasturi',
+    status: 'Tayyor',
+    line: "Do'kon, kafe, restoran va kiyim do'konlari uchun kassa: savdo, ombor, xodimlar va hisobotlar. Internetsiz ham ishlaydi, mobil ilovasi bor.",
+    tags: ['React', 'Electron', 'SQLite', 'Offline'],
+    layout: 'desktop',
+    image: '/media/pos.webp',
+    ground: '#0F1730',
+  },
+  {
+    id: 'crm',
+    name: 'Qurilish CRM',
+    kind: 'CRM tizimi',
+    status: 'Tayyor',
+    line: "Qurilish kompaniyasi uchun: obyektlar, smeta, materiallar ombori, ishchilar va xarajatlar bir oynada.",
+    tags: ['React', 'Node.js', 'Express', 'PostgreSQL'],
+    layout: 'desktop',
+    image: '/media/crm.webp',
+    ground: '#F3F1EC',
+  },
+  {
+    id: 'luz',
+    name: 'L.UZ',
+    kind: 'Onlayn va TV menyu',
+    status: 'Jarayonda',
+    line: "Lavash kafesi uchun onlayn menyu, Telegram orqali buyurtma va zalga uchta televizorda ishlaydigan raqamli menyu.",
+    tags: ['React', 'Supabase', 'Realtime', 'Telegram'],
+    layout: 'video',
+    video: '/media/lavash-uz-online-menu.mp4',
+    poster: '/media/lavash-uz-online-menu-poster.jpg',
+    side: '/media/lavash-tv.webp',
+    ground: '#E9F6EC',
+  },
+  {
+    id: 'frezko',
+    name: 'Frezko',
+    kind: 'Onlayn menyu + zakaz bot',
+    status: 'Jarayonda',
+    line: "Kafe uchun menyu sayti, taom tanlab beradigan AI maslahatchi va buyurtmani qabul qiladigan Telegram bot.",
+    tags: ['JavaScript', 'Tailwind', 'AI', 'Telegram bot'],
+    layout: 'video',
+    video: '/media/frezko.mp4',
+    poster: '/media/frezko-poster.jpg',
+    side: '/media/bot.webp',
+    sidePhone: true,
+    ground: '#FFF1E6',
+  },
+  {
+    id: 'delivery',
+    name: "Kattaqo'rg'on yetkazib berish",
+    kind: 'Yetkazib berish ilovasi',
+    status: 'Tayyor',
+    line: "Shahar restoranlaridan ovqat buyurtma qilish: menyular, savat, kuryerni kuzatish va Telegram bot orqali buyurtma.",
+    tags: ['React', 'Node.js', 'Telegram bot', 'PostgreSQL'],
+    layout: 'phone',
+    image: '/media/delivery.webp',
+    ground: '#FFD400',
+  },
+  {
+    id: 'phone',
+    name: 'TelefonBaho',
+    kind: 'Telefon oldi-sotdisi',
+    status: 'Jarayonda',
+    line: "Telefon do'konlari uchun sayt: mijoz eski iPhone yoki Samsung'ining narxini bir daqiqada biladi, ariza do'kon botiga tushadi.",
+    tags: ['Next.js', 'Node.js', 'Telegram bot'],
+    layout: 'desktop',
+    image: '/media/phone.webp',
+    ground: '#0F1113',
+  },
+]
+
+export const STEPS = [
+  { n: '01', t: 'Suhbat', d: "Biznesingiz qanday ishlashini tinglayman: nima sotiladi, kim ishlatadi, qayerda vaqt yo'qolyapti." },
+  { n: '02', t: 'Reja va narx', d: "Funksiyalar ro'yxati, muddat va aniq narx. Ishni boshlashdan oldin hammasi kelishib olinadi." },
+  { n: '03', t: 'Dizayn va kod', d: "Har hafta ishlab turgan versiyani ko'rsataman — oxirida kutilmagan narsa chiqmaydi." },
+  { n: '04', t: 'Ishga tushirish', d: "Serverga joylayman, xodimlaringizga o'rgataman va ishga tushgandan keyin ham qo'llab-quvvatlayman." },
+]
